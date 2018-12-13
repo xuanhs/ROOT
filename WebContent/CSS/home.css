@@ -1,0 +1,39 @@
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position:absolute;
+    right:0px;
+	overflow:hidden;
+	align:center;
+}
+li{
+	float:left;
+	
+}
+a:link,a:visited{
+    display:block;
+    width:60px;
+    color:white;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+a:hover,a:active{
+    color:#0080FF;
+}
+.header{
+	background-color: #272727;
+	height: 40px;
+}
+.help{
+	margin-bottom:auto;
+    margin-top:auto;
+	float: right;
+}
+.homebody{
+	background-color: blue;
+	height:600px;
+	background-size: 100%;
+}
