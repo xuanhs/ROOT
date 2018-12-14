@@ -1,19 +1,16 @@
-ul{
+.headerul{
 	list-style-type:none;
 	margin:0;
 	padding:0;
 	position:absolute;
-    right:0px;
-	overflow:hidden;
-	align:center;
 }
-li{
+.headerli{
 	float:left;
 	
 }
 a:link,a:visited{
     display:block;
-    width:60px;
+    width:70px;
     color:white;
     text-align:center;
     padding:4px;
@@ -36,4 +33,14 @@ a:hover,a:active{
 	background-color: blue;
 	height:600px;
 	background-size: 100%;
+}
+.body_1{
+	height:40px;
+}
+hr{
+	padding: 0;
+	margin: 0;
+	width:"100%";
+	color:#3C3C3C;
+	SIZE:0;
 }
